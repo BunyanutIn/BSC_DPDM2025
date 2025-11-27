@@ -6,7 +6,7 @@ Bunyanut Inthawong 663020582-2
 ## บทที่ 1: บทนำสู่ Data Mining
   [Chapter 1. Introduction](https://drive.google.com/file/d/1VJ2ceYxBHDqBz9xVcdErGcm4GLmYzN4W/view?usp=drive_open)
 
-### ทำไมต้อง Data Mining?
+### ทำไมต้องทำ Data Mining ???
 - ปริมาณข้อมูลมหาศาล (จากเทรมไบต์ไปยังเพตไบต์)
 - แหล่งข้อมูลมากมายและการเก็บข้อมูลอัตโนมัติจากหลายแหล่ง (เว็บ, ธุรกิจ, วิทยาศาสตร์, สังคม)
 - ต้องการเครื่องมือวิเคราะห์ข้อมูลเพื่อเปลี่ยนข้อมูลจำนวนมากให้กลายเป็นความรู้
