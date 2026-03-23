@@ -34,6 +34,13 @@ Bunyanut Inthawong 663020582-2
 | :--- | :--- | :--- |
 | บทที่ 1 | [Chapter 1. Introduction](https://drive.google.com/file/d/1VJ2ceYxBHDqBz9xVcdErGcm4GLmYzN4W/view?usp=drive_open) |[บทนำ](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)  | |
 | บทที่ 2 | [Chapter 2.Getting to Know Your Data](https://drive.google.com/file/d/1lx4HYNJakfe3dhvIDt1BVE_PMifXomqy/view) | [มาทำความรู้จักกับข้อมูลกันเถอะ](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)|
+| บทที่ 3 | [Chapter 3. Data Preprocessing](https://drive.google.com/file/d/1lWPmRlh5AVZDmc9wgqwscSu9rlBSif7O/view?usp=drive_link) | [ข้อมูลที่ดีต้องผ่านกระบวนการ preprocessing ก่อนเสมอ](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)|
+| บทที่ 6 | [Chapter 6. Mining Frequent Patterns, Association and Correlations: Basic Concepts and Methods](https://drive.google.com/file/d/159gCgO58IonqT8LGRd_VrY662qRmXTxN/view?usp=sharing) | [การค้นหารูปแบบที่เกิดขึ้นบ่อย ความสัมพันธ์ และความเกี่ยวโยง: แนวคิดและวิธีการพื้นฐาน](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)|
+| บทที่ 8 | [Chapter 8. Classification: Basic Concepts](https://drive.google.com/file/d/1qoAxBKNbYYqvEr_GDydiZVqH_yn97s-O/view?usp=drive_link) | [พื้นฐานการจำแนกประเภทข้อมูล](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)|
+| บทที่ 9 | [Chapter 9. Classification: Advanced Methods](https://drive.google.com/file/d/1GnoJ0xg1I2yaO0TsrCIwceNrj9SxDmxg/view?usp=drive_link) | [มาทำความรู้จักกับข้อมูลกันเถอะ](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)|
+| บทที่ 10 | [Chapter 10. Cluster Analysis: Basic Concepts and Methods](https://drive.google.com/file/d/1-wTPukWN9kmAUk7P9qDY1GfS3btTGV0Q/view?usp=drive_link) | [การวิเคราะห์กลุ่ม:แนวคิดพื้นฐานและวิธีการ](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)|
+
+
 
 ### แหล่งอ้างอิงและแหล่งข้อมูลเพิ่มเติม
 
