@@ -56,7 +56,13 @@ Bunyanut Inthawong 663020582-2
 | บทที่ 9 | [Chapter 9. Classification: Advanced Methods](https://drive.google.com/file/d/1GnoJ0xg1I2yaO0TsrCIwceNrj9SxDmxg/view?usp=drive_link) | [การจำแนกประเภท: วิธีการขั้นสูง](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)|
 | บทที่ 10 | [Chapter 10. Cluster Analysis: Basic Concepts and Methods](https://drive.google.com/file/d/1-wTPukWN9kmAUk7P9qDY1GfS3btTGV0Q/view?usp=drive_link) | [การวิเคราะห์กลุ่ม:แนวคิดพื้นฐานและวิธีการ](https://docs.google.com/document/d/1lWRxXek18dBk1yOg03SSAE6HMCnqce7pMmV3DGz8kNg/edit?usp=sharing)|
 
+---
 
+### 📚 Projects
+- 📁 [Modeling - Decision Tree Regressor](https://colab.research.google.com/drive/1dh24AUSjeClFD-S7CZEUdy6tD8Xm_QJH#scrollTo=f87c303c)
+- 📄[ขั้นตอนการสร้างโมเดล - Decision Tree Regressor](https://docs.google.com/document/d/1aCv3N_HelvMJCxxfJuztcGBACI3H2wCt/edit?usp=sharing&ouid=116197606561903678142&rtpof=true&sd=true)
+
+---
 
 ### แหล่งอ้างอิงและแหล่งข้อมูลเพิ่มเติม
 
