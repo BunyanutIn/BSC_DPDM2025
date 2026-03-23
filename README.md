@@ -59,8 +59,8 @@ Bunyanut Inthawong 663020582-2
 ---
 
 ## 📚 Projects
-- 📁 [Modeling - Decision Tree Regressor](https://colab.research.google.com/drive/1dh24AUSjeClFD-S7CZEUdy6tD8Xm_QJH#scrollTo=f87c303c)
-- 📄[ขั้นตอนการสร้างโมเดล - Decision Tree Regressor](https://docs.google.com/document/d/1aCv3N_HelvMJCxxfJuztcGBACI3H2wCt/edit?usp=sharing&ouid=116197606561903678142&rtpof=true&sd=true)
+- 📁 [Modeling - Decision Tree Regressor](DecisionTreeRegressor.ipynb)
+- 📄[ขั้นตอนการสร้างโมเดล - Decision Tree Regressor](DT_Explain_Steps.docx)
 
 ### 🌳Decision Tree Regressor
 Decision Tree Regressor คืออัลกอริทึมในกลุ่ม Machine Learning ที่ใช้สำหรับ ทำนายค่าที่เป็นตัวเลขต่อเนื่อง (Regression) เช่น การพาดพิงราคาบ้าน, ปริมาณน้ำฝน หรือยอดขายในอนาคต โดยเลียนแบบกระบวนการตัดสินใจของมนุษย์ในลักษณะของ "โครงสร้างต้นไม้" ถ้าจะให้เห็นภาพง่ายที่สุด ลองนึกว่าคุณกำลังเล่นเกมทายตัวเลข แล้วคุณถามคำถามแบบ "ใช่/ไม่ใช่" ไปเรื่อยๆ จนกว่าจะได้คำตอบที่ใกล้เคียงที่สุดนั่นเอง
