@@ -58,21 +58,21 @@ Bunyanut Inthawong 663020582-2
 
 ---
 
-### 📚 Projects
+## 📚 Projects
 - 📁 [Modeling - Decision Tree Regressor](https://colab.research.google.com/drive/1dh24AUSjeClFD-S7CZEUdy6tD8Xm_QJH#scrollTo=f87c303c)
 - 📄[ขั้นตอนการสร้างโมเดล - Decision Tree Regressor](https://docs.google.com/document/d/1aCv3N_HelvMJCxxfJuztcGBACI3H2wCt/edit?usp=sharing&ouid=116197606561903678142&rtpof=true&sd=true)
 
-# 🌳Decision Tree Regressor
+### 🌳Decision Tree Regressor
 Decision Tree Regressor คืออัลกอริทึมในกลุ่ม Machine Learning ที่ใช้สำหรับ ทำนายค่าที่เป็นตัวเลขต่อเนื่อง (Regression) เช่น การพาดพิงราคาบ้าน, ปริมาณน้ำฝน หรือยอดขายในอนาคต โดยเลียนแบบกระบวนการตัดสินใจของมนุษย์ในลักษณะของ "โครงสร้างต้นไม้" ถ้าจะให้เห็นภาพง่ายที่สุด ลองนึกว่าคุณกำลังเล่นเกมทายตัวเลข แล้วคุณถามคำถามแบบ "ใช่/ไม่ใช่" ไปเรื่อยๆ จนกว่าจะได้คำตอบที่ใกล้เคียงที่สุดนั่นเอง
 
-### 🏗️ 1. โครงสร้างและการทำงาน
+#### 🏗️ 1. โครงสร้างและการทำงาน
 การทำงานของ Decision Tree จะเลียนแบบการตัดสินใจของมนุษย์ โดยแบ่งข้อมูล (Split) ตามเงื่อนไขของฟีเจอร์ ดังนี้:
 * **Root Node (โหนดราก):** จุดเริ่มต้นที่เป็นเงื่อนไขแรกสุดในการแบ่งข้อมูล
 * **Decision Node (โหนดตัดสินใจ):** จุดที่มีการแยกสาขาตามเงื่อนไข (เช่น `ถ้าค่า X > 10 ให้ไปทางซ้าย`)
 * **Leaf Node (โหนดใบ):** จุดสิ้นสุดของการทำนาย 
     * 📌 **สำคัญ:** ในกรณีของ Regressor ค่าทำนายที่ได้จะเป็น **ค่าเฉลี่ย (Mean)** ของข้อมูลทั้งหมดที่ตกอยู่ในโหนดใบนั้น
 
-### 🎯 2. เกณฑ์การตัดสินใจ "ตัด" ข้อมูล (Splitting Criteria)
+#### 🎯 2. เกณฑ์การตัดสินใจ "ตัด" ข้อมูล (Splitting Criteria)
 ในขณะที่ Classifier ใช้ Gini หรือ Entropy แต่สำหรับ **Regressor** จะมองหาจุดที่ทำให้ **ความผิดพลาด (Error) น้อยที่สุด** โดยตัวชี้วัดที่นิยมที่สุดคือ:
 **Mean Squared Error (MSE)**
 $$MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \bar{y})^2$$
@@ -82,7 +82,7 @@ $$MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \bar{y})^2$$
 
 > **หลักการ:** อัลกอริทึมจะพยายามเลือกฟีเจอร์และจุดตัด (Threshold) ที่ทำให้ผลรวมของ MSE ในโหนดลูก (Child Nodes) ต่ำที่สุด
 
-### 📊 3. ข้อดีและข้อเสีย (Pros & Cons)
+#### 📊 3. ข้อดีและข้อเสีย (Pros & Cons)
 
 | ข้อดี | ข้อเสีย |
 | :--- | :--- |
@@ -90,7 +90,7 @@ $$MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \bar{y})^2$$
 | **No Scaling:** ไม่ต้องทำ Feature Scaling (เช่น Normalization) | **Instability:** ข้อมูลเปลี่ยนนิดเดียว รูปทรงต้นไม้อาจเปลี่ยนไปเลย |
 | **Non-linear:** จัดการกับความสัมพันธ์ที่ซับซ้อนได้ดี | **No Extrapolation:** ไม่สามารถทำนายค่านอกช่วงข้อมูลที่เคยเห็นได้ |
 
-### 🛠️ 4. การนำไปใช้งาน (Python Example)
+#### 🛠️ 4. การนำไปใช้งาน (Python Example)
 ตัวอย่างการเขียน Code ด้วยห้องสมุด `scikit-learn`:
 ```python
 from sklearn.tree import DecisionTreeRegressor
@@ -105,7 +105,7 @@ from sklearn.tree import DecisionTreeRegressor
     y_pred = model.predict(X_test)
 ```
 
-# ข้อแตกต่างหลักๆ ระหว่าง Decision Tree Classifier (แบบปกติ) และ Decision Tree Regressor
+### ข้อแตกต่างหลักๆ ระหว่าง Decision Tree Classifier (แบบปกติ) และ Decision Tree Regressor
   1. เป้าหมายของผลลัพธ์ (Output)
     - Classifier: ทำนาย "กลุ่ม" หรือ "ประเภท" (Discrete Labels) เช่น ใช่/ไม่ใช่, หมา/แมว/นก, เกรด A/B/C
     - Regressor: ทำนาย "ตัวเลขต่อเนื่อง" (Continuous Values) เช่น ราคาหุ้น, อุณหภูมิ, หรือส่วนสูง
@@ -124,7 +124,8 @@ from sklearn.tree import DecisionTreeRegressor
     - Classifier: จะเป็นการแบ่งพื้นที่ (Decision Boundaries) ออกเป็นโซนๆ ชัดเจน
     - Regressor: เส้นกราฟคำตอบจะมีลักษณะเป็น "ขั้นบันได" (Step Function) เพราะในหนึ่งโหนดใบ มันจะตอบค่าเฉลี่ยเพียงค่าเดียวตลอดช่วงของเงื่อนไขนั้น
 
-ตารางสรุปความต่าง
+
+### **ตารางสรุปความต่าง**
 | คุณสมบัติ | Classifier (ปกติ) | Regressor |
 | :--- | :--- | :--- |
 | ตัวแปรเป้าหมาย | หมวดหมู่ (Categorical) | ตัวเลขต่อเนื่อง (Numeric) | 
