@@ -106,6 +106,13 @@ from sklearn.tree import DecisionTreeRegressor
    3. พยากรณ์ (Prediction)
     y_pred = model.predict(X_test)
 ```
+### เพื่อลดปัญหา Overfitting ที่มักจะเกิดขึ้นกับ Decision Tree ควรปรับแต่งค่า Hyperparameters เหล่านี้:
+
+-  `max_depth `: จำกัดความลึกของต้นไม้
+-  `min_samples_split `: จำนวนข้อมูลขั้นต่ำที่ยอมให้แยกโหนดต่อ
+-  `min_samples_leaf `: จำนวนข้อมูลขั้นต่ำที่ต้องมีในโหนดใบ
+
+--- 
 
 ### ข้อแตกต่างหลักๆ ระหว่าง Decision Tree Classifier (แบบปกติ) และ Decision Tree Regressor
   1. เป้าหมายของผลลัพธ์ (Output)
