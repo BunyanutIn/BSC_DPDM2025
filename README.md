@@ -103,6 +103,7 @@ from sklearn.tree import DecisionTreeRegressor
   
    3. พยากรณ์ (Prediction)
     y_pred = model.predict(X_test)
+```
 
 # ข้อแตกต่างหลักๆ ระหว่าง Decision Tree Classifier (แบบปกติ) และ Decision Tree Regressor
   1. เป้าหมายของผลลัพธ์ (Output)
